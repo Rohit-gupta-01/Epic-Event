@@ -1,0 +1,5 @@
+Auditorium;10000;25000
+OAT;8000;10000
+LectureThereater;2000;5000
+Portico;1000;3000
+Laboratory;250;1000

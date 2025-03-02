@@ -179,7 +179,7 @@ void vendingMain(){
     cout<<"Want something from the Vending Machine so what are you waiting from "<<endl;
     vend:
     vending();
-    cout<<"Wish to buy Another Drink ? (press a to continue...) "<<endl;
+    cout<<"Wish to buy Drink ? (press a to continue...) "<<endl;
     char abc;
     cin>>abc;
     if(abc=='a'){
@@ -210,9 +210,6 @@ void parking()
             cout<<"YOUR TOKEN NO FOR PARKING IS "<<i+1;
             lane[0][i]='1';
             cout << endl;
-            // for (auto i:lane[0]){cout << i <<'\t';}cout << endl;
-            // for (auto i:lane[1]){cout << i <<'\t';}cout << endl;
-            // for (auto i:lane[2]){cout << i <<'\t';}cout << endl;
             fWriter << lane[0] << endl;
             fWriter << lane[1] << endl;
             fWriter << lane[2] << endl;
@@ -312,8 +309,6 @@ void welcome()
     cout<<setw(25)<<" "<<"|_____  |      __|__      |_____       |_____     \\/     |____  |    \\|    |  "<<endl;
     cout<<endl<<endl<<endl;
     cout <<setw(45)<<" "<< "WELCOME TO THE EPIC EVENT...organized by\n\n";
-    cout<<setw(50)<<" " << "ANMOL VERMA - 21803014 - B12\n";
-    cout<<setw(50)<<" " << "HARSHIT VIJAY - 21803015 - B12\n";
     cout<<setw(50)<<" " << "ROHIT GUPTA - 21803018 - B12\n";
     getchar();
     system("cls");
